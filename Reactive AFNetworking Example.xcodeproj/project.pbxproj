@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7D20581F1B339A3C00C906D0 /* RAFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D20581E1B339A3C00C906D0 /* RAFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7D2058251B339A3C00C906D0 /* RAFNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D20581A1B339A3C00C906D0 /* RAFNetworking.framework */; };
+		7D20582E1B339A3C00C906D0 /* RAFNetworkingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D20582D1B339A3C00C906D0 /* RAFNetworkingTests.m */; };
+		7D2058311B339A3C00C906D0 /* RAFNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D20581A1B339A3C00C906D0 /* RAFNetworking.framework */; };
+		7D2058321B339A3C00C906D0 /* RAFNetworking.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7D20581A1B339A3C00C906D0 /* RAFNetworking.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		7D20583A1B339A5C00C906D0 /* AFHTTPClient+RACSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = 84EAA16C17056B4C00E98BFE /* AFHTTPClient+RACSupport.h */; };
+		7D20583B1B339A5C00C906D0 /* AFHTTPClient+RACSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = 84EAA16D17056B4C00E98BFE /* AFHTTPClient+RACSupport.m */; };
+		7D20583C1B339A5C00C906D0 /* AFURLConnectionOperation+RACSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = 84EAA16E17056B4C00E98BFE /* AFURLConnectionOperation+RACSupport.h */; };
+		7D20583D1B339A5C00C906D0 /* AFURLConnectionOperation+RACSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = 84EAA16F17056B4C00E98BFE /* AFURLConnectionOperation+RACSupport.m */; };
+		7D20583E1B339A5C00C906D0 /* RACAFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 84EAA17017056B4C00E98BFE /* RACAFNetworking.h */; };
+		7D20583F1B339A5C00C906D0 /* RACSubscriber+AFProgressCallbacks.h in Headers */ = {isa = PBXBuildFile; fileRef = 84EAA17117056B4C00E98BFE /* RACSubscriber+AFProgressCallbacks.h */; };
+		7D2058401B339A5C00C906D0 /* RACSubscriber+AFProgressCallbacks.m in Sources */ = {isa = PBXBuildFile; fileRef = 84EAA17217056B4C00E98BFE /* RACSubscriber+AFProgressCallbacks.m */; };
 		846C56E01739CD20008B1704 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 846C56DF1739CD20008B1704 /* SenTestingKit.framework */; };
 		846C56E21739CD20008B1704 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 846C56E11739CD20008B1704 /* Cocoa.framework */; };
 		846C56EC1739CD20008B1704 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 846C56EA1739CD20008B1704 /* InfoPlist.strings */; };
@@ -54,6 +66,27 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		7D2058261B339A3C00C906D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84EAA0AC1704E1E700E98BFE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7D2058191B339A3C00C906D0;
+			remoteInfo = RAFNetworking;
+		};
+		7D2058281B339A3C00C906D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84EAA0AC1704E1E700E98BFE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84EAA0B31704E1E700E98BFE;
+			remoteInfo = "Reactive AFNetworking Example";
+		};
+		7D20582F1B339A3C00C906D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84EAA0AC1704E1E700E98BFE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7D2058191B339A3C00C906D0;
+			remoteInfo = RAFNetworking;
+		};
 		846C56FD1739CD39008B1704 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 846C56F61739CD39008B1704 /* Expecta.xcodeproj */;
@@ -154,7 +187,27 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		7D2058381B339A3C00C906D0 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				7D2058321B339A3C00C906D0 /* RAFNetworking.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		7D20581A1B339A3C00C906D0 /* RAFNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RAFNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D20581D1B339A3C00C906D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7D20581E1B339A3C00C906D0 /* RAFNetworking.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RAFNetworking.h; sourceTree = "<group>"; };
+		7D2058241B339A3C00C906D0 /* RAFNetworkingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RAFNetworkingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D20582C1B339A3C00C906D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7D20582D1B339A3C00C906D0 /* RAFNetworkingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RAFNetworkingTests.m; sourceTree = "<group>"; };
 		846C56DE1739CD20008B1704 /* RAFNetworking Tests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RAFNetworking Tests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		846C56DF1739CD20008B1704 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		846C56E11739CD20008B1704 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
@@ -217,6 +270,21 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		7D2058161B339A3C00C906D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D2058211B339A3C00C906D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D2058251B339A3C00C906D0 /* RAFNetworking.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		846C56DA1739CD20008B1704 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -233,6 +301,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D2058311B339A3C00C906D0 /* RAFNetworking.framework in Frameworks */,
 				84EAA11A17052E0900E98BFE /* MobileCoreServices.framework in Frameworks */,
 				84EAA11817052D8C00E98BFE /* SystemConfiguration.framework in Frameworks */,
 				84EAA1071705034300E98BFE /* libReactiveCocoa-iOS.a in Frameworks */,
@@ -245,6 +314,40 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7D20581B1B339A3C00C906D0 /* RAFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				7D20581E1B339A3C00C906D0 /* RAFNetworking.h */,
+				7D20581C1B339A3C00C906D0 /* Supporting Files */,
+			);
+			path = RAFNetworking;
+			sourceTree = "<group>";
+		};
+		7D20581C1B339A3C00C906D0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7D20581D1B339A3C00C906D0 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7D20582A1B339A3C00C906D0 /* RAFNetworkingTests */ = {
+			isa = PBXGroup;
+			children = (
+				7D20582D1B339A3C00C906D0 /* RAFNetworkingTests.m */,
+				7D20582B1B339A3C00C906D0 /* Supporting Files */,
+			);
+			path = RAFNetworkingTests;
+			sourceTree = "<group>";
+		};
+		7D20582B1B339A3C00C906D0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7D20582C1B339A3C00C906D0 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		846C56E31739CD20008B1704 /* Other Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -307,6 +410,8 @@
 				84EAA0F71705028000E98BFE /* ReactiveCocoa.xcodeproj */,
 				84EAA0BD1704E1E700E98BFE /* Reactive AFNetworking Example */,
 				846C56E71739CD20008B1704 /* RAFNetworking Tests */,
+				7D20581B1B339A3C00C906D0 /* RAFNetworking */,
+				7D20582A1B339A3C00C906D0 /* RAFNetworkingTests */,
 				84EAA0B61704E1E700E98BFE /* Frameworks */,
 				84EAA0B51704E1E700E98BFE /* Products */,
 			);
@@ -318,6 +423,8 @@
 			children = (
 				84EAA0B41704E1E700E98BFE /* Reactive AFNetworking Example.app */,
 				846C56DE1739CD20008B1704 /* RAFNetworking Tests.octest */,
+				7D20581A1B339A3C00C906D0 /* RAFNetworking.framework */,
+				7D2058241B339A3C00C906D0 /* RAFNetworkingTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -418,7 +525,59 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		7D2058171B339A3C00C906D0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D20583F1B339A5C00C906D0 /* RACSubscriber+AFProgressCallbacks.h in Headers */,
+				7D20583E1B339A5C00C906D0 /* RACAFNetworking.h in Headers */,
+				7D20581F1B339A3C00C906D0 /* RAFNetworking.h in Headers */,
+				7D20583A1B339A5C00C906D0 /* AFHTTPClient+RACSupport.h in Headers */,
+				7D20583C1B339A5C00C906D0 /* AFURLConnectionOperation+RACSupport.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
+		7D2058191B339A3C00C906D0 /* RAFNetworking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D2058371B339A3C00C906D0 /* Build configuration list for PBXNativeTarget "RAFNetworking" */;
+			buildPhases = (
+				7D2058151B339A3C00C906D0 /* Sources */,
+				7D2058161B339A3C00C906D0 /* Frameworks */,
+				7D2058171B339A3C00C906D0 /* Headers */,
+				7D2058181B339A3C00C906D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RAFNetworking;
+			productName = RAFNetworking;
+			productReference = 7D20581A1B339A3C00C906D0 /* RAFNetworking.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7D2058231B339A3C00C906D0 /* RAFNetworkingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D2058391B339A3C00C906D0 /* Build configuration list for PBXNativeTarget "RAFNetworkingTests" */;
+			buildPhases = (
+				7D2058201B339A3C00C906D0 /* Sources */,
+				7D2058211B339A3C00C906D0 /* Frameworks */,
+				7D2058221B339A3C00C906D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7D2058271B339A3C00C906D0 /* PBXTargetDependency */,
+				7D2058291B339A3C00C906D0 /* PBXTargetDependency */,
+			);
+			name = RAFNetworkingTests;
+			productName = RAFNetworkingTests;
+			productReference = 7D2058241B339A3C00C906D0 /* RAFNetworkingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		846C56DD1739CD20008B1704 /* RAFNetworking Tests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 846C56F51739CD20008B1704 /* Build configuration list for PBXNativeTarget "RAFNetworking Tests" */;
@@ -437,7 +596,7 @@
 			name = "RAFNetworking Tests";
 			productName = "RAFNetworking Tests";
 			productReference = 846C56DE1739CD20008B1704 /* RAFNetworking Tests.octest */;
-			productType = "com.apple.product-type.bundle";
+			productType = "com.apple.product-type.bundle.ocunit-test";
 		};
 		84EAA0B31704E1E700E98BFE /* Reactive AFNetworking Example */ = {
 			isa = PBXNativeTarget;
@@ -446,11 +605,13 @@
 				84EAA0B01704E1E700E98BFE /* Sources */,
 				84EAA0B11704E1E700E98BFE /* Frameworks */,
 				84EAA0B21704E1E700E98BFE /* Resources */,
+				7D2058381B339A3C00C906D0 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 				84EAA1061705033600E98BFE /* PBXTargetDependency */,
+				7D2058301B339A3C00C906D0 /* PBXTargetDependency */,
 			);
 			name = "Reactive AFNetworking Example";
 			productName = "Reactive AFNetworking Example";
@@ -466,6 +627,15 @@
 				CLASSPREFIX = RAFN;
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = CodaFi;
+				TargetAttributes = {
+					7D2058191B339A3C00C906D0 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					7D2058231B339A3C00C906D0 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = 84EAA0B31704E1E700E98BFE;
+					};
+				};
 			};
 			buildConfigurationList = 84EAA0AF1704E1E700E98BFE /* Build configuration list for PBXProject "Reactive AFNetworking Example" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -495,6 +665,8 @@
 			targets = (
 				84EAA0B31704E1E700E98BFE /* Reactive AFNetworking Example */,
 				846C56DD1739CD20008B1704 /* RAFNetworking Tests */,
+				7D2058191B339A3C00C906D0 /* RAFNetworking */,
+				7D2058231B339A3C00C906D0 /* RAFNetworkingTests */,
 			);
 		};
 /* End PBXProject section */
@@ -580,6 +752,20 @@
 /* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
+		7D2058181B339A3C00C906D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D2058221B339A3C00C906D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		846C56DB1739CD20008B1704 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -618,6 +804,24 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		7D2058151B339A3C00C906D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D2058401B339A5C00C906D0 /* RACSubscriber+AFProgressCallbacks.m in Sources */,
+				7D20583B1B339A5C00C906D0 /* AFHTTPClient+RACSupport.m in Sources */,
+				7D20583D1B339A5C00C906D0 /* AFURLConnectionOperation+RACSupport.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D2058201B339A3C00C906D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D20582E1B339A3C00C906D0 /* RAFNetworkingTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		846C56D91739CD20008B1704 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -663,6 +867,21 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		7D2058271B339A3C00C906D0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7D2058191B339A3C00C906D0 /* RAFNetworking */;
+			targetProxy = 7D2058261B339A3C00C906D0 /* PBXContainerItemProxy */;
+		};
+		7D2058291B339A3C00C906D0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84EAA0B31704E1E700E98BFE /* Reactive AFNetworking Example */;
+			targetProxy = 7D2058281B339A3C00C906D0 /* PBXContainerItemProxy */;
+		};
+		7D2058301B339A3C00C906D0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7D2058191B339A3C00C906D0 /* RAFNetworking */;
+			targetProxy = 7D20582F1B339A3C00C906D0 /* PBXContainerItemProxy */;
+		};
 		846C57151739CD46008B1704 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Specta;
@@ -700,6 +919,152 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		7D2058331B339A3C00C906D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				INFOPLIST_FILE = RAFNetworking/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7D2058341B339A3C00C906D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				INFOPLIST_FILE = RAFNetworking/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7D2058351B339A3C00C906D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				INFOPLIST_FILE = RAFNetworkingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Reactive AFNetworking Example.app/Reactive AFNetworking Example";
+			};
+			name = Debug;
+		};
+		7D2058361B339A3C00C906D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				INFOPLIST_FILE = RAFNetworkingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Reactive AFNetworking Example.app/Reactive AFNetworking Example";
+			};
+			name = Release;
+		};
 		846C56F11739CD20008B1704 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -811,6 +1176,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Reactive AFNetworking Example/Reactive AFNetworking Example-Prefix.pch";
 				INFOPLIST_FILE = "Reactive AFNetworking Example/Reactive AFNetworking Example-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_CFLAGS = "-all_load";
 				OTHER_LDFLAGS = (
 					"-ObjC",
@@ -827,6 +1193,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Reactive AFNetworking Example/Reactive AFNetworking Example-Prefix.pch";
 				INFOPLIST_FILE = "Reactive AFNetworking Example/Reactive AFNetworking Example-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_CFLAGS = (
 					"-DNS_BLOCK_ASSERTIONS=1",
 					"-all_load",
@@ -843,6 +1210,22 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		7D2058371B339A3C00C906D0 /* Build configuration list for PBXNativeTarget "RAFNetworking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D2058331B339A3C00C906D0 /* Debug */,
+				7D2058341B339A3C00C906D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7D2058391B339A3C00C906D0 /* Build configuration list for PBXNativeTarget "RAFNetworkingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D2058351B339A3C00C906D0 /* Debug */,
+				7D2058361B339A3C00C906D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		846C56F51739CD20008B1704 /* Build configuration list for PBXNativeTarget "RAFNetworking Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
